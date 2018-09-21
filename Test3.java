@@ -1,4 +1,4 @@
-import java.security.*;
+import java.security.MessageDigest;
 
 class Test {
 
