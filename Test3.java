@@ -11,6 +11,7 @@ class Test {
     MessageDigest digest = MessageDigest.getInstance(crypto);
     digest.reset();
     digest.update(salt);
+    digest.digest();
   }
 }
 
