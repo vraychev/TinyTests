@@ -5,7 +5,7 @@ class Test {
 
   int compare(Test o) {
     if (o.value > value) return 1;
-    return -1;
+    return 0;
   }
 }
 
