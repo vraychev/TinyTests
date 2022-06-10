@@ -4,7 +4,7 @@ class Test {
 
   
   public void IP(byte[] salt) {
-    encrypt(salt, "SHA-1");
+    encrypt(salt, "SHA-256");
   } 
 
   public void encrypt(byte[] salt, String crypto) {
