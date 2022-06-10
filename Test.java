@@ -2,7 +2,6 @@ import java.security.*;
 
 class Test {
 
-  
   public void IP(byte[] salt) {
     encrypt(salt, "SHA-1");
   } 
